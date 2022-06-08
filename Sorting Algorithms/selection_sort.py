@@ -10,9 +10,6 @@ Time Complexity:   O(n^2)
 Space Complexity:  O(1)
 """
 
-def print_list(sorted_list):
-    print(sorted_list)
-
 def selection_sort(original_list):
     length = len(original_list)
     for i in xrange(length):
@@ -22,6 +19,7 @@ def selection_sort(original_list):
                 min_value_index = j
         original_list[i], original_list[min_value_index] = original_list[min_value_index], original_list[i]
         print("Sorted until index: ", i)
-        print_list(original_list)
+        print(original_list)
+    
     print("Sorted list:")
-    print_list(original_list)
+    print(original_list)
