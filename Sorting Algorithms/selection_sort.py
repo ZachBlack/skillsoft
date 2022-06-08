@@ -3,16 +3,17 @@ Skillsoft/Percipio Python Bootcamp
 Course #15 Implementing Sorting Algorithms
 Selection Sort
 COMPLETED: 2/25/2022
+
+This sort works for both num lists and string lists
+
+Time Complexity:   O(n^2)
+Space Complexity:  O(1)
 """
-def print_list(num_list):
-    print(num_list)
+
+def print_list(sorted_list):
+    print(sorted_list)
 
 def selection_sort(original_list):
-    """
-        This works for num_lists AND string_lists
-        Time Complexity:    O(N^2)
-        Space Complexity:   O(1)
-    """
     length = len(original_list)
     for i in xrange(length):
         min_value_index = i
