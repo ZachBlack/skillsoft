@@ -1,6 +1,7 @@
 """
 Skillsoft/Percipio Python Bootcamp
 Course #15 Implementing Sorting Algorithms
+
 Selection Sort
 COMPLETED: 2/25/2022
 
