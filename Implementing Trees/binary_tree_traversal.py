@@ -7,7 +7,7 @@ NOTE: The Queue data structure is used in Breadth First Traversal, import it
 
 COMPLETED: 3/6/2022
 """
-from data_structures.MyQueue import MyQueue
+from data_structures.my_queue import MyQueue
 
 def breadth_first(node):
     if(node == None):
