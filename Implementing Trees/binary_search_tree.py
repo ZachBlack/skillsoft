@@ -5,6 +5,22 @@ Course #17 Implementing Trees
 Defining a Binary Search Tree
 
 COMPLETED: 3/6/2022
+
+Example usage:
+    => a = Node(45)
+    => b = Node(2)
+    => c = Node(33)
+    => d = Node(54)
+    => e = Node(25)
+    => head = insert(Node, c)
+    => head.print_tree()
+    returns => 33
+    insert(head, b)
+    insert(head, e)
+    head.print_tree()
+    returns => 2
+               25
+               33   
 """
 
 def insert(head, node):
