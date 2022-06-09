@@ -1,6 +1,8 @@
 """
 Skillsoft/Percipio Python Bootcamp
+
 Course #13 Implementing Data Structures
+
 COMPLETED: 2/23/2022
 """
 class MyQueue:
